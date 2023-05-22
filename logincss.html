@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Login</title>
+
+<style type="text/css">
+*{
+padding:0;
+margin: 0;
+box-sizing:border-box;
+
+}
+body{
+ background: linear-gradient(90deg, #ddd 0%, #f6d3c0 100%);
+}
+.a{
+ position:absolute;
+ top: 120px;
+ left: 28%;
+ width: 250px;
+ height:240px;
+ background: #fca270;
+ animation: z 3s linear infinite;
+
+}
+
+@keyframes z{
+0%,100%{
+ border-radius: 42% 55% 70% 30% / 45% 45% 55% 55%;
+ transform:translate3d(0px,0px,0px) rotateZ(.01deg);
+}
+34%{
+ border-radius: 70% 30% 42% 54% / 30% 28% 71% 70%;
+ transform:translate3d(0px,5px,0px) rotateZ(.01deg);
+
+}
+
+}
+.conteinner{
+position:relative;
+top: 180px;
+left:14%;
+color: #fff;
+width: 260px;
+height:340px;
+text-align:center;
+border-radius: 40px;
+background: rgba(211,211,211, 0.8);
+
+} h2{
+ position:relative;
+ top:10px;
+}
+.login{
+ position:relative;
+ top: 30px;
+}
+
+.login input{
+ padding: 10px 12px;
+ margin: 14px;
+ outline:none;
+ border:none;
+ color: #f6d3c0;
+ border-radius: 40px;
+
+}
+.login button{
+ padding: 8px 28px;
+ border:none;
+ outline:none;
+ color: #fff;
+ border-radius: 40px;
+ background: #f6d3c0;
+
+}
+
+.link{
+ position:relative;
+ top:60px;
+ 
+}
+.link a{
+ text-decoration:none;
+ color:  #fff;
+
+}.login button:hover{
+ background: #fca270;
+ color: #fff;
+
+}
+</style>
+</head>
+<body>
+<div class="a"></div>
+  <div class="conteinner" >
+    <h2> Login </h2>
+    <form class="login" >
+       
+       <input type="text" name="txt" placeholder=" E-mail"><br>
+       <input type="passe" name="txt" placeholder=" Palavra-passe"><br><br>
+       <button> Enter </button>
+    
+    </form>
+    <div class="link" >
+    <a href="#" > Esqueceste a passe?</a>
+    </div>
+  </div>
+  
+  
+</body>
+</html>
